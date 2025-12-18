@@ -7,7 +7,7 @@
 - 🏠  Jamshedpur native
 - 💻  Full-Stack Web Developer 
 - 👨🏽‍💻  I’m currently working on something cool 😉.
-- 🌱  I’m currently learning MERN.
+- 🌱  I’m currently learning ML.
 - 💬  Ask me about ** JS CSS HTML **
 - ❤️   Gadgets, Chess and Music
 - ❓  Want to know more about me? You can always contact me via Social Media.
