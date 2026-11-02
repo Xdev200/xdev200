@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-label="My ninja way — web apps, mobile apps and AI tools">
+<title>My ninja way — web apps, mobile apps and AI tools</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1e"/><stop offset="1" stop-color="#151036"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".55" stop-color="#e2383f"/><stop offset="1" stop-color="#9d6bff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16203f"/><stop offset="1" stop-color="#0f1530"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1fa"/><stop offset="1" stop-color="#9aa3c2"/></linearGradient></defs>
+<style>
+.spin{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+.spinr{animation:spin 14s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.twinkle{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.leaf{animation:drift 9s linear infinite}
+@keyframes drift{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.9}90%{opacity:.8}100%{opacity:0;transform:translate(-260px,190px) rotate(540deg)}}
+.fadeup{animation:fu .9s ease-out both}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pulse{animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.55}50%{opacity:1}}
+.shine{animation:sh 4s ease-in-out infinite}
+@keyframes sh{0%{transform:translateX(-40px)}60%,100%{transform:translateX(420px)}}
+.t{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#e8ecf8}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;fill:#8a94b8}
+</style>
+<rect x="1" y="1" width="998" height="328" rx="18" fill="url(#panel)" stroke="#2a3560" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="4" rx="2" fill="url(#fire)"/>
+<text x="32" y="40" class="m" font-size="13" letter-spacing="2" fill="#ff7a1a" style="fill:#ff7a1a">EP.02 // MY NINJA WAY</text>
+<g transform="translate(60,70)">
+<rect x="10" y="18" width="220" height="200" rx="6" fill="#efe3c6"/>
+<g opacity=".55" stroke="#8c6b3f" stroke-width="2" stroke-linecap="round">
+<path d="M40,60 H200"/><path d="M40,85 H180"/><path d="M40,110 H195"/><path d="M40,135 H160"/><path d="M40,160 H190"/></g>
+<g transform="translate(120,190)"><g transform="translate(0,0)" fill="none" stroke="#e2383f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<circle r="18" stroke-opacity=".9"/>
+<path d="M-13.5,-6.3 L-18.9,0 L-13.5,6.3"/><path d="M13.5,-6.3 L18.9,0 L13.5,6.3"/>
+<path d="M-7.2,-8.1 L7.2,8.1 M7.2,-8.1 L-7.2,8.1"/>
+<circle cy="-11.2" r="1.4" fill="#e2383f" stroke="none"/></g></g>
+<rect x="0" y="6" width="240" height="20" rx="10" fill="#7a3b1f"/><rect x="0" y="210" width="240" height="20" rx="10" fill="#7a3b1f"/>
+<rect class="pulse" x="-6" y="10" width="10" height="12" rx="3" fill="#ff7a1a"/><rect class="pulse" x="236" y="214" width="10" height="12" rx="3" fill="#ff7a1a"/>
+<text x="120" y="45" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#7a3b1f">SECRET SCROLL</text></g>
+<g transform="translate(720,50)"><g class="spin"><path d="M0,-12 L2.64,-2.64 L12,0 L2.64,2.64 L0,12 L-2.64,2.64 L-12,0 L-2.64,-2.64 Z" fill="#5b6690"/><circle r="1.92" fill="#0b0f1e"/></g></g>
+<text x="360" y="62" class="t" font-size="28" font-weight="800">Code it. Ship it. Own it.</text>
+<g class="fadeup" style="animation-delay:0.2s"><rect x="360" y="82" width="46" height="46" rx="12" fill="#ff7a1a" opacity=".14" stroke="#ff7a1a" stroke-opacity=".5"/><g transform="translate(367,89)" fill="none" stroke="#ff7a1a" stroke-width="2.2"><rect x="2" y="4" width="28" height="22" rx="3"/><path d="M2,10 H30"/><path d="M11,16 L8,19 L11,22 M21,16 L24,19 L21,22"/></g>
+<text x="424" y="106" class="t" font-size="18" font-weight="700">Web apps that feel alive</text><text x="424" y="126" class="m" font-size="13">MERN and Next.js builds: dashboards, SaaS, marketing sites</text></g><g class="fadeup" style="animation-delay:0.45s"><rect x="360" y="144" width="46" height="46" rx="12" fill="#e2383f" opacity=".14" stroke="#e2383f" stroke-opacity=".5"/><g transform="translate(367,151)" fill="none" stroke="#e2383f" stroke-width="2.2"><rect x="8" y="1" width="16" height="28" rx="3"/><circle cx="16" cy="24" r="1.4" fill="#e2383f"/></g>
+<text x="424" y="168" class="t" font-size="18" font-weight="700">Mobile apps in both villages</text><text x="424" y="188" class="m" font-size="13">Kotlin for Android, Swift / SwiftUI for iOS, Flutter for both</text></g><g class="fadeup" style="animation-delay:0.7s"><rect x="360" y="206" width="46" height="46" rx="12" fill="#9d6bff" opacity=".14" stroke="#9d6bff" stroke-opacity=".5"/><g transform="translate(367,213)" fill="none" stroke="#9d6bff" stroke-width="2.2"><path d="M16,2 L19,12 L29,15 L19,18 L16,28 L13,18 L3,15 L13,12 Z"/></g>
+<text x="424" y="230" class="t" font-size="18" font-weight="700">AI tools that do real work</text><text x="424" y="250" class="m" font-size="13">Agents, automations and data tools that save hours, not demos</text></g>
+<g class="fadeup" style="animation-delay:1s"><rect x="360" y="276" width="600" height="34" rx="10" fill="#e2383f" opacity=".12" stroke="#e2383f" stroke-opacity=".5"/>
+<text x="378" y="298" class="t" font-size="14" font-style="italic" style="fill:#ffd2bf">“My ninja code: no shortcut is worth a broken build.”</text></g>
+</svg>

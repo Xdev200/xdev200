@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Jutsu arsenal — tech stack">
+<title>Jutsu arsenal — tech stack</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1e"/><stop offset="1" stop-color="#151036"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".55" stop-color="#e2383f"/><stop offset="1" stop-color="#9d6bff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16203f"/><stop offset="1" stop-color="#0f1530"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1fa"/><stop offset="1" stop-color="#9aa3c2"/></linearGradient></defs>
+<style>
+.spin{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+.spinr{animation:spin 14s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.twinkle{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.leaf{animation:drift 9s linear infinite}
+@keyframes drift{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.9}90%{opacity:.8}100%{opacity:0;transform:translate(-260px,190px) rotate(540deg)}}
+.fadeup{animation:fu .9s ease-out both}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pulse{animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.55}50%{opacity:1}}
+.shine{animation:sh 4s ease-in-out infinite}
+@keyframes sh{0%{transform:translateX(-40px)}60%,100%{transform:translateX(420px)}}
+.t{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#e8ecf8}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;fill:#8a94b8}
+</style>
+<rect x="1" y="1" width="998" height="418" rx="18" fill="url(#panel)" stroke="#2a3560" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="4" rx="2" fill="url(#fire)"/>
+<text x="32" y="40" class="m" font-size="13" letter-spacing="2" fill="#ff7a1a" style="fill:#ff7a1a">EP.03 // JUTSU ARSENAL</text>
+<text x="32" y="76" class="t" font-size="26" font-weight="800">Tools I train with</text>
+<text x="968" y="40" text-anchor="end" class="m" font-size="12" letter-spacing="1.5">18 TECHNIQUES MASTERED</text>
+<g transform="translate(940,72)"><g class="spin"><path d="M0,-14 L3.08,-3.08 L14,0 L3.08,3.08 L0,14 L-3.08,3.08 L-14,0 L-3.08,-3.08 Z" fill="#ff7a1a"/><circle r="2.24" fill="#0b0f1e"/></g></g>
+<g class="fadeup" style="animation-delay:0.00s"><rect x="40" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#3178c6" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="54" y="110" width="34" height="34" rx="9" fill="#3178c6" opacity=".18"/><text x="71" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#3178c6">TS</text>
+<text x="54" y="166" class="t" font-size="14" font-weight="600">TypeScript</text></g><g class="fadeup" style="animation-delay:0.06s"><rect x="195" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#f7df1e" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="209" y="110" width="34" height="34" rx="9" fill="#f7df1e" opacity=".18"/><text x="226" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#f7df1e">JS</text>
+<text x="209" y="166" class="t" font-size="14" font-weight="600">JavaScript</text></g><g class="fadeup" style="animation-delay:0.12s"><rect x="350" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#61dafb" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="364" y="110" width="34" height="34" rx="9" fill="#61dafb" opacity=".18"/><text x="381" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#61dafb">Re</text>
+<text x="364" y="166" class="t" font-size="14" font-weight="600">React</text></g><g class="fadeup" style="animation-delay:0.18s"><rect x="505" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#e8ecf8" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="519" y="110" width="34" height="34" rx="9" fill="#e8ecf8" opacity=".18"/><text x="536" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#e8ecf8">N</text>
+<text x="519" y="166" class="t" font-size="14" font-weight="600">Next.js</text></g><g class="fadeup" style="animation-delay:0.24s"><rect x="660" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#5fa04e" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="674" y="110" width="34" height="34" rx="9" fill="#5fa04e" opacity=".18"/><text x="691" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#5fa04e">Nd</text>
+<text x="674" y="166" class="t" font-size="14" font-weight="600">Node.js</text></g><g class="fadeup" style="animation-delay:0.30s"><rect x="815" y="96" width="140" height="82" rx="14" fill="#0f1530" stroke="#47a248" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="829" y="110" width="34" height="34" rx="9" fill="#47a248" opacity=".18"/><text x="846" y="133" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#47a248">Mg</text>
+<text x="829" y="166" class="t" font-size="14" font-weight="600">MongoDB</text></g><g class="fadeup" style="animation-delay:0.36s"><rect x="40" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#4479a1" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="54" y="210" width="34" height="34" rx="9" fill="#4479a1" opacity=".18"/><text x="71" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#4479a1">My</text>
+<text x="54" y="266" class="t" font-size="14" font-weight="600">MySQL</text></g><g class="fadeup" style="animation-delay:0.42s"><rect x="195" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#38bdf8" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="209" y="210" width="34" height="34" rx="9" fill="#38bdf8" opacity=".18"/><text x="226" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#38bdf8">Tw</text>
+<text x="209" y="266" class="t" font-size="14" font-weight="600">Tailwind</text></g><g class="fadeup" style="animation-delay:0.48s"><rect x="350" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#e34f26" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="364" y="210" width="34" height="34" rx="9" fill="#e34f26" opacity=".18"/><text x="381" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#e34f26">H5</text>
+<text x="364" y="266" class="t" font-size="14" font-weight="600">HTML / CSS</text></g><g class="fadeup" style="animation-delay:0.54s"><rect x="505" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#8892bf" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="519" y="210" width="34" height="34" rx="9" fill="#8892bf" opacity=".18"/><text x="536" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#8892bf">Ph</text>
+<text x="519" y="266" class="t" font-size="14" font-weight="600">PHP</text></g><g class="fadeup" style="animation-delay:0.60s"><rect x="660" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#a97bff" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="674" y="210" width="34" height="34" rx="9" fill="#a97bff" opacity=".18"/><text x="691" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#a97bff">Kt</text>
+<text x="674" y="266" class="t" font-size="14" font-weight="600">Kotlin</text></g><g class="fadeup" style="animation-delay:0.66s"><rect x="815" y="196" width="140" height="82" rx="14" fill="#0f1530" stroke="#f05138" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="829" y="210" width="34" height="34" rx="9" fill="#f05138" opacity=".18"/><text x="846" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#f05138">Sw</text>
+<text x="829" y="266" class="t" font-size="14" font-weight="600">Swift</text></g><g class="fadeup" style="animation-delay:0.72s"><rect x="40" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#02569b" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="54" y="310" width="34" height="34" rx="9" fill="#02569b" opacity=".18"/><text x="71" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#02569b">Fl</text>
+<text x="54" y="366" class="t" font-size="14" font-weight="600">Dart / Flutter</text></g><g class="fadeup" style="animation-delay:0.78s"><rect x="195" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#ffd43b" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="209" y="310" width="34" height="34" rx="9" fill="#ffd43b" opacity=".18"/><text x="226" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#ffd43b">Py</text>
+<text x="209" y="366" class="t" font-size="14" font-weight="600">Python</text></g><g class="fadeup" style="animation-delay:0.84s"><rect x="350" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#ff9900" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="364" y="310" width="34" height="34" rx="9" fill="#ff9900" opacity=".18"/><text x="381" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#ff9900">AW</text>
+<text x="364" y="366" class="t" font-size="14" font-weight="600">AWS</text></g><g class="fadeup" style="animation-delay:0.90s"><rect x="505" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#e8ecf8" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="519" y="310" width="34" height="34" rx="9" fill="#e8ecf8" opacity=".18"/><text x="536" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#e8ecf8">▲</text>
+<text x="519" y="366" class="t" font-size="14" font-weight="600">Vercel</text></g><g class="fadeup" style="animation-delay:0.96s"><rect x="660" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#3ecf8e" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="674" y="310" width="34" height="34" rx="9" fill="#3ecf8e" opacity=".18"/><text x="691" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#3ecf8e">Sb</text>
+<text x="674" y="366" class="t" font-size="14" font-weight="600">Supabase</text></g><g class="fadeup" style="animation-delay:1.02s"><rect x="815" y="296" width="140" height="82" rx="14" fill="#0f1530" stroke="#2496ed" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="829" y="310" width="34" height="34" rx="9" fill="#2496ed" opacity=".18"/><text x="846" y="333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#2496ed">Dk</text>
+<text x="829" y="366" class="t" font-size="14" font-weight="600">Docker</text></g>
+</svg>

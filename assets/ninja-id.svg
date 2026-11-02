@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="Ninja registration card and GitHub stats for Xdev200">
+<title>Ninja registration card and GitHub stats for Xdev200</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1e"/><stop offset="1" stop-color="#151036"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".55" stop-color="#e2383f"/><stop offset="1" stop-color="#9d6bff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16203f"/><stop offset="1" stop-color="#0f1530"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1fa"/><stop offset="1" stop-color="#9aa3c2"/></linearGradient></defs>
+<style>
+.spin{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+.spinr{animation:spin 14s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.twinkle{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.leaf{animation:drift 9s linear infinite}
+@keyframes drift{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.9}90%{opacity:.8}100%{opacity:0;transform:translate(-260px,190px) rotate(540deg)}}
+.fadeup{animation:fu .9s ease-out both}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pulse{animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.55}50%{opacity:1}}
+.shine{animation:sh 4s ease-in-out infinite}
+@keyframes sh{0%{transform:translateX(-40px)}60%,100%{transform:translateX(420px)}}
+.t{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#e8ecf8}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;fill:#8a94b8}
+</style>
+<rect x="1" y="1" width="998" height="438" rx="18" fill="url(#panel)" stroke="#2a3560" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="4" rx="2" fill="url(#fire)"/>
+<text x="32" y="40" class="m" font-size="13" letter-spacing="2" fill="#ff7a1a" style="fill:#ff7a1a">EP.04 // NINJA REGISTRATION</text>
+<g transform="translate(190,60)"><g style="animation:sway 5s ease-in-out infinite;transform-origin:0px 0px">
+<path d="M-34,-12 L-12,20 M34,-12 L12,20" stroke="#e2383f" stroke-width="10" stroke-linecap="round"/>
+<rect x="-14" y="14" width="28" height="18" rx="4" fill="#9aa3c2"/>
+<rect x="-130" y="30" width="260" height="330" rx="18" fill="#f3efe6"/>
+<rect x="-130" y="30" width="260" height="64" rx="18" fill="url(#fire)"/><rect x="-130" y="76" width="260" height="18" fill="url(#fire)"/>
+<text x="0" y="60" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#fff">SHINOBI DEV LICENSE</text>
+<text x="0" y="80" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2" fill="#ffe7d6">VILLAGE OF JAMSHEDPUR</text>
+<circle cx="0" cy="150" r="46" fill="#1a2245"/><g transform="translate(0,150)" fill="none" stroke="#ff7a1a" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+<circle r="26" stroke-opacity=".9"/>
+<path d="M-19.5,-9.1 L-27.3,0 L-19.5,9.1"/><path d="M19.5,-9.1 L27.3,0 L19.5,9.1"/>
+<path d="M-10.4,-11.7 L10.4,11.7 M10.4,-11.7 L-10.4,11.7"/>
+<circle cy="-16.1" r="2.1" fill="#ff7a1a" stroke="none"/></g>
+<text x="0" y="230" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1a2245">Madhusudan Das</text>
+<text x="0" y="252" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#5b6690">@Xdev200</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#1a2245"><text x="-108" y="290">RANK</text><text x="108" y="290" text-anchor="end" font-weight="700" fill="#e2383f">JŌNIN · FULL-STACK</text>
+<text x="-108" y="312">CLASS</text><text x="108" y="312" text-anchor="end" font-weight="700">FOUNDER / BUILDER</text>
+<text x="-108" y="334">ID</text><text x="108" y="334" text-anchor="end" font-weight="700">XD-200-2020</text></g>
+</g></g>
+<style>@keyframes sway{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}</style>
+<text x="420" y="94" class="t" font-size="26" font-weight="800">Mission stats from the field</text>
+<g class="fadeup" style="animation-delay:0.2s"><rect x="420" y="120" width="126" height="88" rx="14" fill="#0f1530" stroke="#ff7a1a" stroke-opacity=".5"/>
+<text x="483" y="165" text-anchor="middle" class="t" font-size="30" font-weight="800" style="fill:#ff7a1a">49</text><text x="483" y="192" text-anchor="middle" class="m" font-size="11" letter-spacing="1.5">PUBLIC REPOS</text></g><g class="fadeup" style="animation-delay:0.35s"><rect x="560" y="120" width="126" height="88" rx="14" fill="#0f1530" stroke="#e2383f" stroke-opacity=".5"/>
+<text x="623" y="165" text-anchor="middle" class="t" font-size="30" font-weight="800" style="fill:#e2383f">20</text><text x="623" y="192" text-anchor="middle" class="m" font-size="11" letter-spacing="1.5">FOLLOWERS</text></g><g class="fadeup" style="animation-delay:0.5s"><rect x="700" y="120" width="126" height="88" rx="14" fill="#0f1530" stroke="#9d6bff" stroke-opacity=".5"/>
+<text x="763" y="165" text-anchor="middle" class="t" font-size="30" font-weight="800" style="fill:#9d6bff">16</text><text x="763" y="192" text-anchor="middle" class="m" font-size="11" letter-spacing="1.5">FOLLOWING</text></g><g class="fadeup" style="animation-delay:0.6499999999999999s"><rect x="840" y="120" width="126" height="88" rx="14" fill="#0f1530" stroke="#2fd48a" stroke-opacity=".5"/>
+<text x="903" y="165" text-anchor="middle" class="t" font-size="30" font-weight="800" style="fill:#2fd48a">2020</text><text x="903" y="192" text-anchor="middle" class="m" font-size="11" letter-spacing="1.5">JOINED</text></g>
+<text x="420" y="246" class="m" font-size="12" letter-spacing="1.5" style="fill:#ff7a1a">CHAKRA NATURE · TOP LANGUAGES</text>
+<text x="420" y="271" class="m" font-size="13">TypeScript</text><rect x="530" y="260" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="260" width="300" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="300" dur="1.4s" begin="0.00s" fill="freeze"/></rect>
+<text x="840" y="271" class="m" font-size="12">8 repos</text><text x="420" y="297" class="m" font-size="13">HTML</text><rect x="530" y="286" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="286" width="225" height="12" rx="6" fill="#e34f26"><animate attributeName="width" from="0" to="225" dur="1.4s" begin="0.15s" fill="freeze"/></rect>
+<text x="840" y="297" class="m" font-size="12">6 repos</text><text x="420" y="323" class="m" font-size="13">JavaScript</text><rect x="530" y="312" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="312" width="188" height="12" rx="6" fill="#f7df1e"><animate attributeName="width" from="0" to="188" dur="1.4s" begin="0.30s" fill="freeze"/></rect>
+<text x="840" y="323" class="m" font-size="12">5 repos</text><text x="420" y="349" class="m" font-size="13">Kotlin</text><rect x="530" y="338" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="338" width="150" height="12" rx="6" fill="#a97bff"><animate attributeName="width" from="0" to="150" dur="1.4s" begin="0.45s" fill="freeze"/></rect>
+<text x="840" y="349" class="m" font-size="12">4 repos</text><text x="420" y="375" class="m" font-size="13">Python</text><rect x="530" y="364" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="364" width="75" height="12" rx="6" fill="#ffd43b"><animate attributeName="width" from="0" to="75" dur="1.4s" begin="0.60s" fill="freeze"/></rect>
+<text x="840" y="375" class="m" font-size="12">2 repos</text><text x="420" y="401" class="m" font-size="13">Dart</text><rect x="530" y="390" width="300" height="12" rx="6" fill="#1c2546"/>
+<rect x="530" y="390" width="38" height="12" rx="6" fill="#02569b"><animate attributeName="width" from="0" to="38" dur="1.4s" begin="0.75s" fill="freeze"/></rect>
+<text x="840" y="401" class="m" font-size="12">1 repo</text>
+<text x="968" y="425" text-anchor="end" class="m" font-size="10">snapshot Nov 2026 · live numbers below</text>
+</svg>

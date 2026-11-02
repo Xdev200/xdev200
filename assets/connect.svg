@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Connect with Maddy — LinkedIn, X, Hashnode, Discord">
+<title>Connect with Maddy — LinkedIn, X, Hashnode, Discord</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1e"/><stop offset="1" stop-color="#151036"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".55" stop-color="#e2383f"/><stop offset="1" stop-color="#9d6bff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16203f"/><stop offset="1" stop-color="#0f1530"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1fa"/><stop offset="1" stop-color="#9aa3c2"/></linearGradient></defs>
+<style>
+.spin{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+.spinr{animation:spin 14s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.twinkle{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.leaf{animation:drift 9s linear infinite}
+@keyframes drift{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.9}90%{opacity:.8}100%{opacity:0;transform:translate(-260px,190px) rotate(540deg)}}
+.fadeup{animation:fu .9s ease-out both}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pulse{animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.55}50%{opacity:1}}
+.shine{animation:sh 4s ease-in-out infinite}
+@keyframes sh{0%{transform:translateX(-40px)}60%,100%{transform:translateX(420px)}}
+.t{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#e8ecf8}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;fill:#8a94b8}
+</style>
+<rect x="1" y="1" width="998" height="228" rx="18" fill="url(#panel)" stroke="#2a3560" stroke-width="2"/>
+<rect x="1" y="1" width="998" height="4" rx="2" fill="url(#fire)"/>
+<text x="32" y="40" class="m" font-size="13" letter-spacing="2" fill="#ff7a1a" style="fill:#ff7a1a">EP.07 // JOIN THE SQUAD</text>
+<circle class="twinkle" style="animation-delay:0.71s" cx="544" cy="85" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.42s" cx="581" cy="139" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.78s" cx="234" cy="229" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.62s" cx="550" cy="91" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.70s" cx="152" cy="213" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.22s" cx="671" cy="15" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.13s" cx="780" cy="189" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.42s" cx="719" cy="202" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.36s" cx="427" cy="167" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.33s" cx="936" cy="202" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.11s" cx="495" cy="59" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.31s" cx="627" cy="69" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.50s" cx="574" cy="123" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.75s" cx="904" cy="157" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.57s" cx="991" cy="154" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.10s" cx="326" cy="125" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.71s" cx="714" cy="49" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.80s" cx="124" cy="111" r="1.5" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.97s" cx="89" cy="184" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.69s" cx="20" cy="98" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:2.62s" cx="44" cy="141" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.13s" cx="586" cy="127" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:1.52s" cx="999" cy="71" r="0.8" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.32s" cx="536" cy="218" r="1.1" fill="#fff"/>
+<circle class="twinkle" style="animation-delay:0.87s" cx="263" cy="159" r="1.1" fill="#fff"/>
+<text x="32" y="86" class="t" font-size="28" font-weight="800">Let’s build the next episode together</text>
+<g class="spin" style="transform-origin:930px 78px"><circle cx="930" cy="78" r="32" fill="none" stroke="#9d6bff" stroke-opacity=".25" stroke-width="1.5"/><polyline filter="url(#glow)" points="930.0,78.0 930.1,78.0 930.3,78.0 930.4,78.1 930.5,78.1 930.6,78.2 930.7,78.3 930.8,78.4 930.9,78.5 931.0,78.6 931.1,78.8 931.1,78.9 931.1,79.1 931.2,79.2 931.2,79.4 931.1,79.6 931.1,79.8 931.1,80.0 931.0,80.1 930.9,80.3 930.8,80.5 930.7,80.7 930.5,80.8 930.4,81.0 930.2,81.1 930.0,81.3 929.8,81.4 929.5,81.5 929.3,81.6 929.0,81.7 928.8,81.7 928.5,81.8 928.2,81.8 927.9,81.8 927.6,81.7 927.3,81.7 927.0,81.6 926.6,81.5 926.3,81.4 926.0,81.2 925.7,81.0 925.4,80.8 925.2,80.6 924.9,80.3 924.6,80.0 924.4,79.7 924.2,79.4 924.0,79.1 923.8,78.7 923.6,78.3 923.5,77.9 923.4,77.5 923.3,77.0 923.2,76.6 923.2,76.1 923.2,75.7 923.2,75.2 923.3,74.7 923.4,74.2 923.6,73.7 923.7,73.3 924.0,72.8 924.2,72.3 924.5,71.9 924.8,71.5 925.2,71.0 925.5,70.6 925.9,70.2 926.4,69.9 926.9,69.5 927.4,69.2 927.9,69.0 928.4,68.7 929.0,68.5 929.6,68.3 930.2,68.2 930.9,68.1 931.5,68.1 932.2,68.0 932.8,68.1 933.5,68.1 934.1,68.3 934.8,68.4 935.5,68.6 936.1,68.9 936.8,69.2 937.4,69.5 938.0,69.9 938.6,70.4 939.2,70.8 939.7,71.4 940.2,71.9 940.7,72.5 941.1,73.2 941.5,73.8 941.9,74.5 942.2,75.3 942.5,76.0 942.7,76.8 942.9,77.6 943.1,78.4 943.1,79.2 943.2,80.1 943.1,81.0 943.0,81.8 942.9,82.7 942.7,83.5 942.4,84.4 942.1,85.2 941.8,86.0 941.3,86.8 940.8,87.6 940.3,88.4 939.7,89.1 939.1,89.8 938.4,90.5 937.6,91.1 936.9,91.7 936.0,92.2 935.2,92.7 934.3,93.1 933.3,93.5 932.4,93.8 931.4,94.0 930.4,94.2 929.4,94.3 928.3,94.4 927.3,94.4 926.2,94.3 925.1,94.1 924.1,93.9 923.0,93.6 922.0,93.3 921.0,92.9 920.0,92.4 919.0,91.8 918.1,91.2 917.2,90.5 916.3,89.8 915.5,89.0 914.7,88.1 914.0,87.2 913.4,86.2 912.8,85.2 912.2,84.1 911.7,83.0 911.3,81.9 911.0,80.7 910.7,79.5 910.5,78.3 910.4,77.1 910.4,75.8 910.4,74.6 910.6,73.3 910.8,72.1 911.1,70.8 911.4,69.6 911.9,68.4 912.4,67.2 913.0,66.0 913.7,64.9 914.5,63.8 915.3,62.7 916.2,61.7 917.2,60.8 918.3,59.9 919.4,59.1 920.5,58.4 921.7,57.7 923.0,57.1 924.3,56.5 925.6,56.1 927.0,55.7 928.4,55.5 929.8,55.3 931.3,55.2 932.7,55.2 934.2,55.3 935.6,55.4 937.1,55.7 938.5,56.1 939.9,56.5 941.3,57.1 942.7,57.7 944.0,58.5 945.3,59.3 946.6,60.2 947.7,61.2 948.9,62.3 949.9,63.4 950.9,64.6 951.8,65.9 952.7,67.3 953.4,68.7 954.1,70.1 954.7,71.6 955.1,73.2 955.5,74.8 955.8,76.4 956.0,78.0" fill="none" stroke="#9d6bff" stroke-width="3" stroke-linecap="round"/></g>
+<g class="fadeup" style="animation-delay:0.0s"><rect x="40" y="120" width="216" height="74" rx="14" fill="#0f1530" stroke="#0a66c2" stroke-opacity=".6"/>
+<circle cx="70" cy="157" r="12" fill="#0a66c2" opacity=".85"/><text x="92" y="152" class="t" font-size="16" font-weight="700">LinkedIn</text><text x="92" y="172" class="m" font-size="10">in/madhusudan-das-8552ba196</text></g><g class="fadeup" style="animation-delay:0.15s"><rect x="272" y="120" width="216" height="74" rx="14" fill="#0f1530" stroke="#e8ecf8" stroke-opacity=".6"/>
+<circle cx="302" cy="157" r="12" fill="#e8ecf8" opacity=".85"/><text x="324" y="152" class="t" font-size="16" font-weight="700">X</text><text x="324" y="172" class="m" font-size="10">@xdev_200</text></g><g class="fadeup" style="animation-delay:0.3s"><rect x="504" y="120" width="216" height="74" rx="14" fill="#0f1530" stroke="#2962ff" stroke-opacity=".6"/>
+<circle cx="534" cy="157" r="12" fill="#2962ff" opacity=".85"/><text x="556" y="152" class="t" font-size="16" font-weight="700">Hashnode</text><text x="556" y="172" class="m" font-size="10">xdev.hashnode.dev</text></g><g class="fadeup" style="animation-delay:0.44999999999999996s"><rect x="736" y="120" width="216" height="74" rx="14" fill="#0f1530" stroke="#5865f2" stroke-opacity=".6"/>
+<circle cx="766" cy="157" r="12" fill="#5865f2" opacity=".85"/><text x="788" y="152" class="t" font-size="16" font-weight="700">Discord</text><text x="788" y="172" class="m" font-size="10">MADDY#6870</text></g>
+</svg>
